@@ -5,6 +5,7 @@ import { AboutPagesComponent } from './pages/about-pages/about-pages.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { RouterModule } from '@angular/router';
 import { ContactComponent } from './pages/contact/contact.component';
+import { SearchBoxComponent } from './components/search-box/search-box.component';
 
 
 
@@ -13,7 +14,8 @@ import { ContactComponent } from './pages/contact/contact.component';
     HomePageComponent,
     AboutPagesComponent,
     SidebarComponent,
-    ContactComponent
+    ContactComponent,
+    SearchBoxComponent
   ],
   imports: [
     CommonModule,
@@ -22,7 +24,8 @@ import { ContactComponent } from './pages/contact/contact.component';
   exports: [
     HomePageComponent,
     AboutPagesComponent,
-    SidebarComponent
+    SidebarComponent,
+    SearchBoxComponent
   ]
 })
 export class SharedModule { }
